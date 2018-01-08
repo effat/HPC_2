@@ -1,0 +1,45 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2e2-13>
+Subject: Job 382196: <Rscript pitt_migrate_starter2.R> in cluster <henry2> Exited
+
+Job <Rscript pitt_migrate_starter2.R> was submitted from host <login03.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Sat Jan  6 22:21:20 2018.
+Job was executed on host(s) <8*n2e2-13>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Sun Jan  7 13:10:21 2018.
+                            <8*n2e2-12>
+                            <4*n2e2-3>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Sun Jan  7 13:10:21 2018.
+Terminated at Sun Jan  7 13:10:22 2018.
+Results reported at Sun Jan  7 13:10:22 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_migrate_starter2.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.22 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   4 sec.
+    Turnaround time :                            53342 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.382196> for stderr output of this job.
+
