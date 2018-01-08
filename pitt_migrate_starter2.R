@@ -1,13 +1,13 @@
 
 
-source("C:\\Drive E\\Fall 2017\\migration_optimize\\Pitt_migrate_norm_3_1.R")
+source("Pitt_migrate_norm_3_1.R")
 
 
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\aus.csv",sep=",",header=F)
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\thyroidGland.csv",sep=",",header=F)
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\sattelite.csv",sep=",",header=F)
 #a<-read.table("page.csv",sep=",",header=F)
-#a<-read.table("sonar.csv",sep=",",header=F)
+a<-read.table("sonar.csv",sep=",",header=F)
 
 
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\wave.csv",sep=",",header=F)
@@ -16,7 +16,7 @@ source("C:\\Drive E\\Fall 2017\\migration_optimize\\Pitt_migrate_norm_3_1.R")
 #a<-read.arff("C:/Drive E/Fall16/BBO-RMCode/cfs/optical_IG.arff")
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\german.csv",sep=",",header=F)
 #a<-read.table("C:\\Drive E\\Fall 2017\\Data\\cmc.csv",sep=",",header=T)
-a<-read.table("C:\\Drive E\\imbalance\\Data\\sonar.csv",sep=",",header=F)
+#a<-read.table("C:\\Drive E\\imbalance\\Data\\sonar.csv",sep=",",header=F)
 #a<-read.arff("C:\\Drive E\\Fall 2017\\Data\\thoracic.arff")
 #a<-read.table("C:\\Drive E\\Fall 2017\\Data\\spect.csv",sep=",",header=T)
 #a<-read.table("C:\\Drive E\\Fall 2017\\Data\\park.csv",sep=",",header=T)
@@ -123,8 +123,8 @@ a<-a[sample(nrow(a)),]
 #sourceCpp("C:/Drive E/Fall16/BBO-RMCode/cppFiles/thy.cpp")
 
 
-#sourceCpp("Pitt_mem_1.cpp")
-sourceCpp("C:\\Drive E\\Fall 2017\\migration_optimize\\HPC\\Pitt_mem_1.cpp")
+sourceCpp("Pitt_mem_1.cpp")
+#sourceCpp("C:\\Drive E\\Fall 2017\\migration_optimize\\HPC\\Pitt_mem_1.cpp")
 
 outer_fold <-2
 
