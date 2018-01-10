@@ -127,7 +127,7 @@ a<-a[sample(nrow(a)),]
 sourceCpp("Pitt_mem_1.cpp")
 #sourceCpp("C:\\Drive E\\Fall 2017\\migration_optimize\\HPC\\Pitt_mem_1.cpp")
 
-outer_fold <-2
+outer_fold <-3
 
 folds <-generateCVRuns(labels = a[, classIndex],
                        ntimes = 1,
