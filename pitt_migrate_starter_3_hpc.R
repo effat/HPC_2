@@ -113,7 +113,7 @@ for(y in 1:cols){
 ### all migration curves seed 111
 my_seed = 150
 
-set.seed(my_seed)
+set.seed(111)
 a<-a[sample(nrow(a)),]
 
 
@@ -168,8 +168,8 @@ for(l in 1:1){
   
   
   ####change 10/1
-  #set.seed(117)
-  #cv.train<- cv.train[sample(nrow( cv.train)),]
+  set.seed(my_seed)
+  cv.train<- cv.train[sample(nrow( cv.train)),]
   
   print(paste0("yey ", l))
   # attType1=c(1,1,1,1,1,1,1,1,1,1,1);
