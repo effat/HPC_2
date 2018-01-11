@@ -142,7 +142,7 @@ migrate_data<-NULL
 
 sumAcc<-0
 
-
+allClass<-unique(a[, classIndex])
 
 #ptm_allcv<-proc.time() - ptm
 
