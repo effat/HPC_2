@@ -14,6 +14,9 @@ for( i in 1:P ){
   
 }
 
+pp<-paste(333,".pdf", sep = "")
+pdf(pp)
+
 par( cex =.9, col="blue")
 
 plot(1:P, lambda, type="o", xlab="rank of pop", ylab = "lambda", main = "liner migration curve")
@@ -26,6 +29,8 @@ for( i in 1:P ){
   
   norm_rank[i] <- (i - 1) / (P-1) # linear
 }
+
+cat("done yey", "\n")
 
 #par( cex =.9, col="blue")
 #plot(1:50, tuned_val_a, type="o", xlab="rank of pop", ylab = "lambda", main = "evolved migration curve")

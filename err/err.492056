@@ -1,0 +1,8 @@
+Loading required package: lattice
+Loading required package: robustbase
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'page.csv': No such file or directory
+Execution halted

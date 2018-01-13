@@ -1,0 +1,50 @@
+[1] "yey 1"
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2f1-3>
+Subject: Job 492057: <Rscript pitt_migrate_starter_3_hpc.R> in cluster <henry2> Exited
+
+Job <Rscript pitt_migrate_starter_3_hpc.R> was submitted from host <login01.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Wed Jan 10 19:06:20 2018.
+Job was executed on host(s) <4*n2f1-3>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Wed Jan 10 19:06:23 2018.
+                            <4*n2f1-9>
+                            <4*n2f1-5>
+                            <4*n2f1-6>
+                            <4*n2f1-8>
+                            <4*n2f1-1>
+                            <1*n2f1-4>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Wed Jan 10 19:06:23 2018.
+Terminated at Wed Jan 10 19:06:43 2018.
+Results reported at Wed Jan 10 19:06:43 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_migrate_starter_3_hpc.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   9.10 sec.
+    Max Memory :                                 130.51 MB
+    Average Memory :                             130.51 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   4442 MB
+    Max Processes :                              3
+    Max Threads :                                37
+    Run time :                                   26 sec.
+    Turnaround time :                            23 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.492057> for stderr output of this job.
+
