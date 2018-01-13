@@ -66,7 +66,7 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
     
     min_lambda <- min(lambda_val)
     max_lambda <-max(lambda_val)
-    maxgen_val <-20
+    maxgen_val <-50
     best_cost  <-0
     
     best_member<-NULL
