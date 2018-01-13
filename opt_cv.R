@@ -209,29 +209,6 @@ opt_partition<-function(norm_rank, x_seq, pop, conf_pop){
   instanceData<<-migrate_data
   ###init tune fold
   
-  nfold_opt = 3
-  foldtemp <-generateCVRuns(labels =  instanceData[, classIndex],
-                          ntimes = 1,
-                          nfold = nfold_opt,
-                         stratified=TRUE)
-  
-  
-  sum_curves<-0
-  for(l in 1:nfold_opt){
-    
-    
-  
-    instance.test<-foldtemp $`Run  1`[[l]]
-    instance.train<-instanceData[-instance.test,]
-    instance.test<-instanceData[instance.test,]
-    
-    
-    #opt_ch<-Curveopt(norm_rank, x_seq, pop, conf_pop, instance.train, instance.test)
-    
-    ###summ curves
-    #sum_curves<-sum_curves + opt_ch
-    
-  }###end for l
  
   #sum_curves_avg<-sum_curves/nfold_opt
   
