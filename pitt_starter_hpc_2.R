@@ -55,7 +55,7 @@ for(y in 1:cols){
 
 #############################################################################################
 ### all migration curves seed 111
-my_seed <-117
+my_seed <-111
 set.seed(155)
 a<-a[sample(nrow(a)),]
 
