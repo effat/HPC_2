@@ -94,6 +94,10 @@ for(l in 1:1){
   cv.train<-a_tr
   cv.test<-a_tst
   
+  migrate_data<-cv.train
+  migrate_data <- data.frame(migrate_data)
+  migrate_data <-data.matrix(migrate_data)
+  
   
   
   set.seed(my_seed)
