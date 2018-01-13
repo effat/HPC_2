@@ -7,8 +7,8 @@ source("Pitt_migrate_norm_3_1.R")
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\aus.csv",sep=",",header=F)
 
 a<-read.table("page_transformed.csv",sep=",",header=F)# for recording lower and upper values
-a_tr<-read.table("page_tr.csv",sep=",",header=F)
-a_tst<-read.table("page_test.csv",sep=",",header=F)
+a_tr<-read.table("page_test.csv",sep=",",header=F) ###smaller file for training
+a_tst<-read.table("page_tr.csv",sep=",",header=F)
 
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\thyroidGland.csv",sep=",",header=F)
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\sattelite.csv",sep=",",header=F)
@@ -61,8 +61,8 @@ a<-a[sample(nrow(a)),]
 
 
 
-sourceCpp("C:/Drive E/Fall16/BBO-RMCode/cppFiles/Pitt_mem_1.cpp")
-#sourceCpp("Pitt_mem_1.cpp")
+#sourceCpp("C:/Drive E/Fall16/BBO-RMCode/cppFiles/Pitt_mem_1.cpp")
+sourceCpp("Pitt_mem_1.cpp")
 
 outer_fold <-3
 
