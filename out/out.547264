@@ -1,0 +1,55 @@
+[1] "yey 1"
+[1] "11"
+0
+entering in irace 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2e2-3>
+Subject: Job 547264: <Rscript pitt_starter_hpc_1.R> in cluster <henry2> Exited
+
+Job <Rscript pitt_starter_hpc_1.R> was submitted from host <login03.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Sat Jan 13 14:29:29 2018.
+Job was executed on host(s) <8*n2e2-3>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Sat Jan 13 14:29:33 2018.
+                            <4*n2e2-14>
+                            <4*n2e2-13>
+                            <2*n2e2-11>
+                            <2*n2e2-8>
+                            <2*n2e2-4>
+                            <2*n2e2-10>
+                            <4*n2e2-7>
+                            <2*n2e2-9>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Sat Jan 13 14:29:33 2018.
+Terminated at Sat Jan 13 14:29:57 2018.
+Results reported at Sat Jan 13 14:29:57 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_starter_hpc_1.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   15.39 sec.
+    Max Memory :                                 47.02 MB
+    Average Memory :                             47.02 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   372 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   28 sec.
+    Turnaround time :                            28 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.%> for stderr output of this job.
+
