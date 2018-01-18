@@ -28,9 +28,13 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
   my_target.runner<-function(migration_vect, pop = my_pop, confPop = conf_pop){
     
     
-    ch_partition<-length(migration_vect)/2
-    lambda_curve <-migration_vect[1:ch_partition]
-    mu_curve    <-migration_vect[(ch_partition + 1): length(migration_vect)]
+    #ch_partition<-length(migration_vect)/2
+    #lambda_curve <-migration_vect[1:ch_partition]
+    #mu_curve    <-migration_vect[(ch_partition + 1): length(migration_vect)]
+    
+    ##only optimize one curve, 1-other is the rest
+    lambda_curve <-migration_vect
+    mu_curve    <- 1- lambda_curve
     
     lambda_val<-rep(0, P)
     mu_val<-rep(0, P)
@@ -200,8 +204,13 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
   
   
   ###call GA, fitness function target_runner
-  x   <-my_GeneticAlg.int(genomeLen = 22, codonMin = 0, codonMax = 20,
-                          evalFunc = my_target.runner, iterations = 200, popSize = 100,  mutationChance = 0.1)
+  #x   <-my_GeneticAlg.int(genomeLen = 22, codonMin = 0, codonMax = 20,
+  #                        evalFunc = my_target.runner, iterations = 200, popSize = 100,  mutationChance = 0.1)
+  
+  
+  ##change here, genomelen is half, 1/18
+  x   <-my_GeneticAlg.int(genomeLen = 11, codonMin = 0, codonMax = 20,
+                         evalFunc = my_target.runner, iterations = 200, popSize = 100,  mutationChance = 0.1)
   
   best_ch <-x$best$genome
   return(best_ch)
