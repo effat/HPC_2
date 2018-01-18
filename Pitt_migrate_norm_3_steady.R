@@ -578,6 +578,9 @@ bbo2 <- function(fn, genomeLen,rMin,rMax, lower, upper, attType, sets,cLabel,Dis
     ##plot evolved lambda mu
     
     if(genIndex == 1){
+       pdf_name<-paste(RandSeed, ".pdf", sep = "")
+       pdf(pdf_name)
+
       par( col="blue")
       plot(norm_rank, lambda, type="o", xlab="rank of pop", ylab = "lambda", main = "evolved norm ranking migration curve: lambda")
       plot(norm_rank, mu, type="o", xlab="rank of pop", ylab = "mu", main = "evolved norm ranking migration curve: mu")

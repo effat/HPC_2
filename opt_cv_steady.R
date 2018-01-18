@@ -193,7 +193,7 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
     best_cost<-mean(best_cost_array)
     
     ##return to irace
-    return(list(cost= best_cost*(-1)))  
+    return(best_cost*(-1))  
     
   }###end my_target_runner
   

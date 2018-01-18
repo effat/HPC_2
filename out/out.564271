@@ -1,0 +1,47 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2a1-3>
+Subject: Job 564271: <Rscript pitt_starter_hpc_1.R> in cluster <henry2> Exited
+
+Job <Rscript pitt_starter_hpc_1.R> was submitted from host <login03.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Thu Jan 18 05:43:48 2018.
+Job was executed on host(s) <8*n2a1-3>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Thu Jan 18 05:43:49 2018.
+                            <6*n2a1-11>
+                            <8*n2a1-6>
+                            <6*n2a1-12>
+                            <2*n2a1-4>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Thu Jan 18 05:43:49 2018.
+Terminated at Thu Jan 18 05:43:49 2018.
+Results reported at Thu Jan 18 05:43:49 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_starter_hpc_1.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.19 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   7 sec.
+    Turnaround time :                            1 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.564271> for stderr output of this job.
+

@@ -1,0 +1,28 @@
+
+ *** caught segfault ***
+address (nil), cause 'memory not mapped'
+
+Traceback:
+ 1: .External(RinitJVM, boot.classpath, parameters)
+ 2: .jinit()
+ 3: .jpackage(pkgname, lib.loc = libname)
+ 4: fun(libname, pkgname)
+ 5: doTryCatch(return(expr), name, parentenv, handler)
+ 6: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 7: tryCatchList(expr, classes, parentenv, handlers)
+ 8: tryCatch(fun(libname, pkgname), error = identity)
+ 9: runHook(".onLoad", env, package.lib, package)
+10: loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]])
+11: namespaceImport(ns, loadNamespace(i, c(lib.loc, .libPaths()),     versionCheck = vI[[i]]), from = package)
+12: loadNamespace(package, lib.loc)
+13: doTryCatch(return(expr), name, parentenv, handler)
+14: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+15: tryCatchList(expr, classes, parentenv, handlers)
+16: tryCatch({    attr(package, "LibPath") <- which.lib.loc    ns <- loadNamespace(package, lib.loc)    env <- attachNamespace(ns, pos = pos, deps)}, error = function(e) {    P <- if (!is.null(cc <- conditionCall(e)))         paste(" in", deparse(cc)[1L])    else ""    msg <- gettextf("package or namespace load failed for %s%s:\n %s",         sQuote(package), P, conditionMessage(e))    if (logical.return)         message(paste("Error:", msg), domain = NA)    else stop(msg, call. = FALSE, domain = NA)})
+17: library(RWeka)
+18: eval(ei, envir)
+19: eval(ei, envir)
+20: withVisible(eval(ei, envir))
+21: source("Pitt_migrate_norm_3_steady.R")
+An irrecoverable exception occurred. R is aborting now ...
+/home/efarhan/.lsbatch/1516252884.564216: line 8:  3630 Segmentation fault      (core dumped) Rscript pitt_starter_hpc_2.R

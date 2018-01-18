@@ -1,9 +1,0 @@
-Error in sourceCpp("C:/Drive E/Fall16/BBO-RMCode/cppFiles/Pitt_mem_1.cpp") : 
-  file not found: 'C:/Drive E/Fall16/BBO-RMCode/cppFiles/Pitt_mem_1.cpp'
-Calls: sourceCpp -> .Call
-In addition: Warning messages:
-1: In normalizePath(dirname(file)) :
-  path[1]="C:/Drive E/Fall16/BBO-RMCode/cppFiles": No such file or directory
-2: In normalizePath(file, winslash = "/") :
-  path[1]="C:/Drive E/Fall16/BBO-RMCode/cppFiles/Pitt_mem_1.cpp": No such file or directory
-Execution halted

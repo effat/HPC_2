@@ -1,7 +1,0 @@
-Error in file(filename, "r", encoding = encoding) : 
-  cannot open the connection
-Calls: source -> file
-In addition: Warning message:
-In file(filename, "r", encoding = encoding) :
-  cannot open file 'C:\Drive E\Fall 2017\migration_optimize\Pitt_migrate_norm_3_1.R': No such file or directory
-Execution halted

@@ -1,0 +1,101 @@
+[1] "yey 1"
+[1] "11"
+0
+entering in meta-GA 
+test P i =  1   14  conf len  14 
+test P i =  2   13  conf len  13 
+test P i =  3   13  conf len  13 
+test P i =  4   13  conf len  13 
+test P i =  5   19  conf len  19 
+test P i =  6   19  conf len  19 
+test P i =  7   16  conf len  16 
+test P i =  8   15  conf len  15 
+test P i =  9   20  conf len  20 
+test P i =  10   13  conf len  13 
+test P i =  11   10  conf len  10 
+test P i =  12   14  conf len  14 
+test P i =  13   13  conf len  13 
+test P i =  14   15  conf len  15 
+test P i =  15   11  conf len  11 
+test P i =  16   20  conf len  20 
+test P i =  17   12  conf len  12 
+test P i =  18   19  conf len  19 
+test P i =  19   13  conf len  13 
+test P i =  20   18  conf len  18 
+test P i =  21   20  conf len  20 
+test P i =  22   15  conf len  15 
+test P i =  23   17  conf len  17 
+test P i =  24   13  conf len  13 
+test P i =  25   11  conf len  11 
+test P i =  26   13  conf len  13 
+test P i =  27   16  conf len  16 
+test P i =  28   10  conf len  10 
+test P i =  29   12  conf len  12 
+test P i =  30   16  conf len  16 
+test P i =  31   11  conf len  11 
+test P i =  32   13  conf len  13 
+test P i =  33   11  conf len  11 
+test P i =  34   18  conf len  18 
+test P i =  35   14  conf len  14 
+test P i =  36   14  conf len  14 
+test P i =  37   18  conf len  18 
+test P i =  38   13  conf len  13 
+test P i =  39   11  conf len  11 
+test P i =  40   16  conf len  16 
+test P i =  41   19  conf len  19 
+test P i =  42   11  conf len  11 
+test P i =  43   12  conf len  12 
+test P i =  44   16  conf len  16 
+test P i =  45   17  conf len  17 
+test P i =  46   20  conf len  20 
+test P i =  47   12  conf len  12 
+test P i =  48   20  conf len  20 
+test P i =  49   11  conf len  11 
+test P i =  50   17  conf len  17 
+Starting iteration 1 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2e5-6>
+Subject: Job 564217: <Rscript pitt_starter_hpc_2.R> in cluster <henry2> Exited
+
+Job <Rscript pitt_starter_hpc_2.R> was submitted from host <login03.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Thu Jan 18 00:23:56 2018.
+Job was executed on host(s) <8*n2e5-6>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Thu Jan 18 00:23:57 2018.
+                            <8*n2e5-5>
+                            <8*n2e5-10>
+                            <6*n2e5-1>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Thu Jan 18 00:23:57 2018.
+Terminated at Thu Jan 18 01:04:31 2018.
+Results reported at Thu Jan 18 01:04:31 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_starter_hpc_2.R
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   2428.07 sec.
+    Max Memory :                                 147.09 MB
+    Average Memory :                             145.90 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   3473 MB
+    Max Processes :                              3
+    Max Threads :                                22
+    Run time :                                   2445 sec.
+    Turnaround time :                            2435 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.564217> for stderr output of this job.
+

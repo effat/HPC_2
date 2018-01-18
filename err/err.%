@@ -1,3 +1,0 @@
-Error in indices[[k]] : subscript out of bounds
-Calls: bbo2 -> opt_partition -> generateCVRuns -> lapply -> FUN
-Execution halted

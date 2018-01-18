@@ -1,0 +1,4 @@
+Error in abs(eval_ch2) : non-numeric argument to mathematical function
+Calls: bbo2 -> opt_partition -> Curveopt -> my_GeneticAlg.int
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Execution halted
