@@ -484,9 +484,14 @@ bbo2 <- function(fn, genomeLen,rMin,rMax, lower, upper, attType, sets,cLabel,Dis
   
   
   
-  best_ch_part<- length(best_ch)/2
-  tuned_a <-best_ch[1:best_ch_part]
-  tuned_b <-best_ch[(best_ch_part+1):length(best_ch)]
+  #best_ch_part<- length(best_ch)/2
+  #tuned_a <-best_ch[1:best_ch_part]
+  #tuned_b <-best_ch[(best_ch_part+1):length(best_ch)]
+  
+  ##change made on 1/18
+  tuned_a <-best_ch
+  tuned_b <-1 - best_ch
+ 
   
   cat(tuned_a," tuned a\n")
   cat(tuned_b, " tuned_b\n")
