@@ -249,11 +249,11 @@ my_GeneticAlg.int <- function(genomeLen, codonMin, codonMax,
     
     ###by default child 1 is best
     best_ch_eval<-eval_ch1
-    best_ch<-eval_ch1
+    best_ch<-mut_ch1
     
     if(abs(eval_ch2) > abs (eval_ch1)){
       best_ch_eval<-eval_ch2
-      best_ch<-eval_ch2
+      best_ch<-mut_ch2
       
     }
     
