@@ -1,0 +1,183 @@
+[1] "yey 1"
+[1] "11"
+0
+entering in meta-GA 
+test P i =  1   19  conf len  19 
+test P i =  2   20  conf len  20 
+test P i =  3   14  conf len  14 
+test P i =  4   11  conf len  11 
+test P i =  5   18  conf len  18 
+test P i =  6   15  conf len  15 
+test P i =  7   13  conf len  13 
+test P i =  8   20  conf len  20 
+test P i =  9   14  conf len  14 
+test P i =  10   15  conf len  15 
+test P i =  11   16  conf len  16 
+test P i =  12   10  conf len  10 
+test P i =  13   15  conf len  15 
+test P i =  14   14  conf len  14 
+test P i =  15   12  conf len  12 
+test P i =  16   19  conf len  19 
+test P i =  17   13  conf len  13 
+test P i =  18   16  conf len  16 
+test P i =  19   19  conf len  19 
+test P i =  20   12  conf len  12 
+test P i =  21   13  conf len  13 
+test P i =  22   15  conf len  15 
+test P i =  23   14  conf len  14 
+test P i =  24   11  conf len  11 
+test P i =  25   11  conf len  11 
+test P i =  26   17  conf len  17 
+test P i =  27   20  conf len  20 
+test P i =  28   13  conf len  13 
+test P i =  29   15  conf len  15 
+test P i =  30   20  conf len  20 
+test P i =  31   15  conf len  15 
+test P i =  32   17  conf len  17 
+test P i =  33   17  conf len  17 
+test P i =  34   11  conf len  11 
+test P i =  35   14  conf len  14 
+test P i =  36   14  conf len  14 
+test P i =  37   13  conf len  13 
+test P i =  38   19  conf len  19 
+test P i =  39   19  conf len  19 
+test P i =  40   13  conf len  13 
+test P i =  41   20  conf len  20 
+test P i =  42   14  conf len  14 
+test P i =  43   15  conf len  15 
+test P i =  44   12  conf len  12 
+test P i =  45   17  conf len  17 
+test P i =  46   14  conf len  14 
+test P i =  47   11  conf len  11 
+test P i =  48   14  conf len  14 
+test P i =  49   19  conf len  19 
+test P i =  50   10  conf len  10 
+Starting iteration 1 
+Starting iteration 2 
+Starting iteration 3 
+Starting iteration 4 
+Starting iteration 5 
+Starting iteration 6 
+Starting iteration 7 
+Starting iteration 8 
+Starting iteration 9 
+Starting iteration 10 
+Starting iteration 11 
+Starting iteration 12 
+Starting iteration 13 
+Starting iteration 14 
+Starting iteration 15 
+Starting iteration 16 
+Starting iteration 17 
+Starting iteration 18 
+Starting iteration 19 
+Starting iteration 20 
+Starting iteration 21 
+Starting iteration 22 
+Starting iteration 23 
+Starting iteration 24 
+Starting iteration 25 
+Starting iteration 26 
+Starting iteration 27 
+Starting iteration 28 
+Starting iteration 29 
+Starting iteration 30 
+Starting iteration 31 
+Starting iteration 32 
+Starting iteration 33 
+Starting iteration 34 
+Starting iteration 35 
+Starting iteration 36 
+Starting iteration 37 
+Starting iteration 38 
+Starting iteration 39 
+Starting iteration 40 
+Starting iteration 41 
+8 0 13 4 6 1 9 16 13 12 9  tuned a
+-7 1 -12 -3 -5 0 -8 -15 -12 -11 -8  tuned_b
+tuned res finished 
+The best and mean of Generation #  1  are  0.9058931  and  0.596921 
+The best and mean of Generation #  2  are  0.9058931  and  0.5800274 
+The best and mean of Generation #  3  are  0.9058931  and  0.4696939 
+The best and mean of Generation #  4  are  0.9068068  and  0.4051713 
+The best and mean of Generation #  5  are  0.9068068  and  0.330836 
+The best and mean of Generation #  6  are  0.9068068  and  0.3137597 
+The best and mean of Generation #  7  are  0.9072636  and  0.2356601 
+The best and mean of Generation #  8  are  0.9072636  and  0.2007492 
+The best and mean of Generation #  9  are  0.9072636  and  0.1871265 
+The best and mean of Generation #  10  are  0.9072636  and  0.1544998 
+The best and mean of Generation #  11  are  0.9072636  and  0.1684696 
+The best and mean of Generation #  12  are  0.9072636  and  0.1859296 
+The best and mean of Generation #  13  are  0.9072636  and  0.1510279 
+The best and mean of Generation #  14  are  0.9077204  and  0.1683783 
+The best and mean of Generation #  15  are  0.9077204  and  0.1691 
+The best and mean of Generation #  16  are  0.9077204  and  0.1868068 
+The best and mean of Generation #  17  are  0.9077204  and  0.1529648 
+The best and mean of Generation #  18  are  0.9077204  and  0.1527273 
+The best and mean of Generation #  19  are  0.9077204  and  0.1859388 
+The best and mean of Generation #  20  are  0.9081772  and  0.1682321 
+The best and mean of Generation #  21  are  0.9081772  and  0.167958 
+The best and mean of Generation #  22  are  0.9081772  and  0.1869712 
+The best and mean of Generation #  23  are  0.9081772  and  0.1697031 
+The best and mean of Generation #  24  are  0.9081772  and  0.1681955 
+The best and mean of Generation #  25  are  0.9081772  and  0.1507538 
+The best and mean of Generation #  26  are  0.9081772  and  0.1696848 
+The best and mean of Generation #  27  are  0.9081772  and  0.1689539 
+The best and mean of Generation #  28  are  0.9081772  and  0.1699406 
+The best and mean of Generation #  29  are  0.9081772  and  0.1695021 
+The best and mean of Generation #  30  are  0.9081772  and  0.1863225 
+The best and mean of Generation #  31  are  0.9081772  and  0.1532298 
+The best and mean of Generation #  32  are  0.9081772  and  0.1525171 
+The best and mean of Generation #  33  are  0.9081772  and  0.1707629 
+The best and mean of Generation #  34  are  0.9081772  and  0.1687437 
+The best and mean of Generation #  35  are  0.9081772  and  0.1516674 
+The best and mean of Generation #  36  are  0.9081772  and  0.1690726 
+The best and mean of Generation #  37  are  0.9081772  and  0.1879762 
+The best and mean of Generation #  38  are  0.9081772  and  0.1731932 
+The best and mean of Generation #  39  are  0.9081772  and  0.15746 
+[1] "testAcc: 1 0.906183368869936"
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2a1-14>
+Subject: Job 596843: <Rscript pitt_starter_hpc_1.R> in cluster <henry2> Done
+
+Job <Rscript pitt_starter_hpc_1.R> was submitted from host <login04.hpc.ncsu.edu> by user <efarhan> in cluster <henry2> at Thu Jan 18 16:17:44 2018.
+Job was executed on host(s) <12*n2a1-14>, in queue <single_chassis>, as user <efarhan> in cluster <henry2> at Thu Jan 18 16:17:47 2018.
+                            <12*n2a1-6>
+                            <6*n2a1-10>
+</home/efarhan> was used as the home directory.
+</home/efarhan/RFiles/HPC_1/HPC_2/HPC_2> was used as the working directory.
+Started at Thu Jan 18 16:17:47 2018.
+Terminated at Thu Jan 18 17:26:36 2018.
+Results reported at Thu Jan 18 17:26:36 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript pitt_starter_hpc_1.R
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4128.87 sec.
+    Max Memory :                                 141.48 MB
+    Average Memory :                             140.72 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   3609 MB
+    Max Processes :                              3
+    Max Threads :                                24
+    Run time :                                   4132 sec.
+    Turnaround time :                            4132 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./err/err.596843> for stderr output of this job.
+
