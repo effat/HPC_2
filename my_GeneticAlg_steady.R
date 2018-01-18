@@ -97,6 +97,13 @@ my_GeneticAlg.int <- function(genomeLen, codonMin, codonMax,
   meanEvals = rep(NA, iterations);
   evalVals = rep(NA, popSize);
   
+   ###shifted here 1/18
+  verbose("Calucating evaluation values... ");
+  
+  to.eval.Ids = which(is.na(evalVals))
+  evalVals[to.eval.Ids] = unlist(plapply(to.eval.Ids, 
+                                         function(i, population, evalFunc) evalFunc(population[i, ]),
+                                         population, evalFunc))
   ###added on 12/18
   stagnantCount<-0
   stagnantList<-rep(NA, ((iterations)/20)*4);
@@ -107,14 +114,7 @@ my_GeneticAlg.int <- function(genomeLen, codonMin, codonMax,
     cat("Starting iteration", iter, "\n")
     
     ##########
-    # Evaluation
     
-    verbose("Calucating evaluation values... ");
-    
-    to.eval.Ids = which(is.na(evalVals))
-    evalVals[to.eval.Ids] = unlist(plapply(to.eval.Ids, 
-                                           function(i, population, evalFunc) evalFunc(population[i, ]),
-                                           population, evalFunc))
     
     # check for invalid items
     if ((!all(is.numeric(evalVals))) |
