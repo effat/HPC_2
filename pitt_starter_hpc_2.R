@@ -1,7 +1,7 @@
 library(lattice)
 library(robustbase)
 
-source("Pitt_migrate_norm_3_1.R")
+source("Pitt_migrate_norm_3_steady.R")
 
 
 #a<-read.table("C:\\Drive E\\imbalance\\Data\\aus.csv",sep=",",header=F)
