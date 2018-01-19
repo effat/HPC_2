@@ -266,6 +266,7 @@ my_GeneticAlg.int <- function(genomeLen, codonMin, codonMax,
       
       newPopulation[popSize,] = best_ch
       newEvalVals[popSize] = best_ch_eval
+      cat("replaced worst pop in", iter, "\n")
       
     }
     
