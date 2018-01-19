@@ -559,23 +559,10 @@ bbo2 <- function(fn, genomeLen,rMin,rMax, lower, upper, attType, sets,cLabel,Dis
     lambda<-lambda/100
     
     
-    ###calc mu
-    for(i in 1:P){
-      
-      cost_i<-norm_rank[i]*100#changed 11/15, must mult by 100
-      discrete<-floor(cost_i/10)*10
-      
-      low_ind<-which(x_cord_seq == discrete)
-      
-      high_ind<-ifelse(discrete == 100, low_ind, low_ind+1)
-      
-      
-      y_app<-( mu_curve[high_ind])
-      
-      mu[i]<-y_app*5
-    }##for ends mu
     
-    mu<-mu/100
+    
+    ##added 1/18
+    mu<-1-lambda
     
     
      
