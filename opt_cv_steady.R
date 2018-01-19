@@ -55,22 +55,9 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
     
     lambda_val<-lambda_val/100
     
-    ###calc mu
-    for(i in 1:P){
-      cost_i<-norm_rank[i]*100#changed 11/15, must mult by 100
-      discrete<-floor(cost_i/10)*10
-      
-      low_ind<-which(x_cord_seq == discrete)
-      high_ind<-ifelse(discrete == 100, low_ind, low_ind+1)
-      
-     # y_app<-(mu_curve[low_ind]+ mu_curve[high_ind])/2###this value [1...100], scale it down
-      
-      y_app<-(lambda_curve[high_ind])
-      
-      mu_val[i]<-y_app*5
-    }##for ends mu
-    mu_val<-mu_val/100
+   
     
+    mu_val<-1-lambda_val
     ###combined lambda
     
     min_lambda <- min(lambda_val)
