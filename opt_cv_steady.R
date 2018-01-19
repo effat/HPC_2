@@ -197,7 +197,7 @@ Curveopt<-function(norm_rank, x_cord_seq, my_pop, conf_pop, instancedf){
   
   ##change here, genomelen is half, 1/18
   x   <-my_GeneticAlg.int(genomeLen = 11, codonMin = 0, codonMax = 20,
-                         evalFunc = my_target.runner, iterations = 200, popSize = 100,  mutationChance = 0.1)
+                         evalFunc = my_target.runner, iterations = 150, popSize = 100,  mutationChance = 0.1)
   
   best_ch <-x$best$genome
   return(best_ch)
