@@ -106,7 +106,9 @@ my_GeneticAlg.int <- function(genomeLen, codonMin, codonMax,
                                          population, evalFunc))
   ###added on 12/18
   stagnantCount<-0
-  stagnantList<-rep(NA, ((iterations)/20)*4);
+  s_list_len<-100
+  stagnantList<-rep(NA,  s_list_len)
+ # stagnantList<-rep(NA, ((iterations)/20)*4);
   sLen<-length(stagnantList)
   
   for (iter in 1:iterations) {
